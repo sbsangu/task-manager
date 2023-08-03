@@ -16,6 +16,11 @@ app.use(cors());
 
 app.use("/api/v1",tasks);
 
+app.listen(process.env.PORT,()=>{
+  console.log(`server is running on ${process.env.PORT}`)
+ 
+ });
+
 
 app.get("/", (req, res) =>
   res.send(
@@ -24,4 +29,5 @@ app.get("/", (req, res) =>
 );
 
 
-export default app;
+
+
