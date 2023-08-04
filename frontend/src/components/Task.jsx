@@ -45,7 +45,7 @@ const Task = ({ tasks }) => {
         </div>
 
         <div >
-         Incompletd Task:{incompletedTasks?.length}
+         Incompleted Task:{incompletedTasks?.length}
         </div>
 
         </div>
